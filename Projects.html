@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+    <title>Jeremiah</title>
+
+    <nav class="navbar">
+        <ul>
+        <a href="index.html" id="me"><li>Me</li></a>    
+        <a href="Projects.html" id="projects"class="active"><li>Projects</li></a>    
+        <a href="Experience.html" id="experience"><li>Experience</li></a>    
+        </ul>
+    </nav>
+</head>
+<body>
+
+<div class="pjContainer">
+    <h1 id="pjH1">Guess the Number</h1>
+    <br><br>
+    <label>Input the number from <span class="span">1-100</span></label>
+    <br><br>
+    <input id="userInput"> 
+    <br>
+    <p id="p1"></p>
+    <button id="submitBtn">Submit</button>
+    <br>
+    <button onclick="location.reload()" id="newNum">Click here for new Number</button>
+</div>
+
+
+
+<br>
+<div class="pjDice">
+    <h1 id="diceH1">Dice Roller</h1>
+    <label id="diceLabel"># of dice you want to roll:</label>
+    <br><br>
+    <input id="numofDice" type="number" value="1" min="1">
+    <br> <br>
+    <button onclick="diceroll()" id="rollBtn">Roll</button>
+    <div id="diceResult"></div>
+    <div id="diceImage"></div>
+
+</div>
+
+
+    
+<script src="projects/guessTheNumber/project.js"></script>
+</body>
+</html>
