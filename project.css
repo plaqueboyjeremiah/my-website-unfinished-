@@ -30,6 +30,8 @@
     border: black solid 2px;
     border-radius: 5px;
     background-color: rgb(230, 220, 220);
+    text-align: center;
+    width: 80px;
 
     font-size: 20px;
     font-family: monospace;
@@ -40,6 +42,15 @@
     outline: none;
     background-color: rgb(238, 232, 232);
 }
+
+
+.pjContainer #p1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    font-size: 18px;
+}
+
 
 .pjContainer #submitBtn{
     font-size: 20px;
@@ -107,6 +118,8 @@
 
 .pjDice input{
     font-size: 20px;
+    text-align: center;
+    width: 70px;
 }
 
 .pjDice #diceResult{

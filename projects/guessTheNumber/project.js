@@ -11,7 +11,7 @@ submitBtn.onclick = function(){
 
     p1.textContent = 
         isNaN(guess) ? `Your answer must be Number`:
-        guess > maxNum || guess < minNum ? `Input your answer, it should be between 1-100` :
+        guess > maxNum || guess < minNum ? `It should be between 1-100` :
         guess <  answer ? `That is TOO LOW!` :
         guess > answer ? `That is TOO HIGH` : `CORRECT!`
 }
