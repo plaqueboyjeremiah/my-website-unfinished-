@@ -181,6 +181,9 @@
     border: red solid;
     background-color: white;
 
+    font-family: monospace;
+    font-size: 20px;
+
 }
 
 .choices .foods{
@@ -241,7 +244,27 @@
 
 .order #quantity{
     font-family: monospace;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 
+.order #decreaseBtn,
+#increaseBtn,
+#resetBtn{
+    padding: 5px 20px;
+    font-family: monospace;
+    border-radius: 7px;
+    border: solid gray 1px;
+
+    cursor: pointer;
+    background-color: tomato;
+
+    transition: transform .25s;
+    
+}
+
+.order #decreaseBtn:hover,
+.order #increaseBtn:hover,
+.order #resetBtn:hover {
+    transform: scale(1.2);
+}
