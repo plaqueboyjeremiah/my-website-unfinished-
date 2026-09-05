@@ -259,12 +259,12 @@
     cursor: pointer;
     background-color: tomato;
 
-    transition: transform .25s;
+    transition: background-color .25s;
     
 }
 
 .order #decreaseBtn:hover,
 .order #increaseBtn:hover,
 .order #resetBtn:hover {
-    transform: scale(1.2);
+    background-color: rgb(187, 77, 58);
 }
