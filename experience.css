@@ -1,3 +1,6 @@
+.container{
+    display: flex;
+}
 
 
 .liason{
@@ -34,3 +37,29 @@
     padding: 10px 20px;
 }
 
+.hardware{
+    font-family: monospace;
+    display: block;
+    margin: 10em 5em;
+    border: solid black 2px;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 82%);
+
+}
+
+.hardware img{
+    width: 300px;
+
+    border-radius: 10px;
+}
+
+.hardware ul{
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px 20px;
+}
