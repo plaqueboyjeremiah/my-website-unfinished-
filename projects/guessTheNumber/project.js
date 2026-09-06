@@ -35,7 +35,6 @@ function diceroll(){
         images.push(`<img src="images/${result}.png" alt="Die showing ${result}">`);
     }
 
-    diceresult.textContent = `Dice: ${values.join(", ")}`;
     diceimage.innerHTML = images.join(' ');
 
 }

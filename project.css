@@ -1,3 +1,10 @@
+.container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
 .pjContainer{
     font-family: monospace;
 
@@ -166,9 +173,6 @@
     }
 }
 
-.pjDice #diceImage{
-    border-radius: 10px;
-}
 
 
 
@@ -184,6 +188,7 @@
     border-radius: 10px;
     border: red solid;
     background-color: white;
+    box-shadow: 0 2px 10px black;
 
     font-family: monospace;
     font-size: 20px;
@@ -257,6 +262,7 @@
 #resetBtn{
     padding: 5px 20px;
     font-family: monospace;
+    font-size: 22px;
     border-radius: 7px;
     border: solid gray 1px;
 

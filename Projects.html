@@ -17,18 +17,19 @@
 </head>
 <body>
 
-<div class="pjContainer">
-    <h1 id="pjH1">Guess the Number</h1>
-    <br><br>
-    <label>Input the number from <span class="span">1-100</span></label>
-    <br><br>
-    <input id="userInput"> 
-    <br>
-    <p id="p1"></p>
-    <button id="submitBtn">Submit</button>
-    <br>
-    <button onclick="location.reload()" id="newNum">Click here for new Number</button>
-</div>
+<div class="container">
+    <div class="pjContainer">
+        <h1 id="pjH1">Guess the Number</h1>
+        <br><br>
+        <label>Input the number from <span class="span">1-100</span></label>
+        <br><br>
+        <input id="userInput"> 
+        <br>
+        <p id="p1"></p>
+        <button id="submitBtn">Submit</button>
+        <br>
+        <button onclick="location.reload()" id="newNum">Click here for new Number</button>
+    </div>
 
 
 
@@ -47,37 +48,34 @@
 
 
 
-<section class="mcdo">
+    <div class="mcdo">
 
-    <div class="choices">
-        <div class="foods">
-            <div id="burger">Burger</div>
+        <div class="choices">
+            <div class="foods">
+                <div id="burger">Burger</div>
+                <br>
+                <div id="fries">Fries</div>
+                <br>
+                <div id="mccafe">mcCafe</div>
+            </div>
+
+
+        <div class="order">
+            <label id="quantity">1</label>
             <br>
-            <div id="fries">Fries</div>
+
+            <button id="decreaseBtn">-</button>
+            <button id="resetBtn">Reset</button>
+            <button id="increaseBtn">+</button>
+            <br><br>
+
+            <label id="foodPicked"></label>
             <br>
-            <div id="mccafe">mcCafe</div>
+            <label id="price">It will show the PRICE here</label>        
         </div>
-
-
-    <div class="order">
-        <label id="quantity">1</label>
-        <br>
-
-        <button id="decreaseBtn">-</button>
-        <button id="resetBtn">Reset</button>
-        <button id="increaseBtn">+</button>
-        <br><br>
-
-        <label id="foodPicked"></label>
-        <br>
-        <label id="price">It will show the PRICE here</label>        
     </div>
     </div>
-
-
-
-</section>
-
+</div>
     
 <script src="projects/guessTheNumber/project.js"></script>
 </body>
