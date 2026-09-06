@@ -1,8 +1,7 @@
-body{
-    font-family: monospace;
-}
+
 
 .liason{
+    font-family: monospace;
     display: block;
     margin: 10em 5em;
     border: solid black 2px;
