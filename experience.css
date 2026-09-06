@@ -1,0 +1,37 @@
+body{
+    font-family: monospace;
+}
+
+.liason{
+    display: block;
+    margin: 10em 5em;
+    border: solid black 2px;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 82%);
+}
+
+.liason img{
+    border-radius: 10px;
+    width: 250px;
+}
+
+
+.liason h1{
+    font-size: 35px;
+}
+
+.liason #workWhere{
+    font-style: italic;
+}
+
+.liason ul{
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+

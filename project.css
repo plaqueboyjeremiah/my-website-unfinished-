@@ -166,6 +166,10 @@
     }
 }
 
+.pjDice #diceImage{
+    border-radius: 10px;
+}
+
 
 
 /* McDo */
@@ -267,4 +271,9 @@
 .order #increaseBtn:hover,
 .order #resetBtn:hover {
     background-color: rgb(187, 77, 58);
+}
+
+
+.order #price{
+    font-size: 30px;
 }

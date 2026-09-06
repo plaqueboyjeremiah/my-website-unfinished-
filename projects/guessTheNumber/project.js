@@ -64,7 +64,7 @@ const coffeePrice = 100;
 
 let order = 1;
 let selectedfoodPrice = 0;
-let foodImage;
+let foodImage = " ";
 
 function selectedFood(){
     quantity.textContent = order
